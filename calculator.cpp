@@ -2,12 +2,44 @@
 #include "calculator.h"
 using namespace std;
 
+// Constructor that Initializes the variables
 Calculator::Calculator() {
 	num1 = 0;
 	num2 = 0;
+	total_amount = 0;
 }
 
-Calculator::Calculator(double n1, double n2) {
-	num1 = n1;
-	num2 = n2;
+// Deconstructor telling the user that he/she is exiting the program
+Calculator::~Calculator() {
+	cout << "Exiting Calculator Program.\n";
+}
+
+void Calculator::displayFunctions() {
+	cout << "-------------------------" << endl;
+	cout << "Calculator Math Functions" << endl;
+	cout << "-------------------------" << endl;
+	cout << "Add (+)" << endl;
+	cout << "Subtract (-)" << endl;
+	cout << "Multiply (*)" << endl;
+	cout << "Divide (/)" << endl;
+	cout << "Find remainder (?)" << endl;
+	cout << "Square (2)" << endl;
+	cout << "Cube (3)" << endl;
+	cout << "Power (^)" << endl;
+	cout << "Square Root (R)" << endl;
+	cout << "Factorial (!)" << endl;
+	cout << "Exit program (exit)" << endl;
+}
+
+void Calculator::askForNum(double& n1) {
+	cout << "Enter number: ";
+	cin >> n1;
+}
+
+void Calculator::add(double n1, double n2, double& total) {
+	total = n1 + n2;
+}
+
+void Calculator::subtract(double n1, double n2, double& total) {
+	total = n1 - n2;
 }
