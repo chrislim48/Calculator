@@ -30,15 +30,15 @@ int main() {
 	   		C.multiply(num1, num2, total);
 		}
 		else if(symbol == "/") {
-	    	C.askForTwoNum(num1, num2);
-	    	C.divide(num1, num2, total);
+			C.askForTwoNum(num1, num2);
+			C.divide(num1, num2, total);
 		}
 		else if(symbol == "?") {
-	    	C.askForTwoNum(num1, num2);
-	    	C.find_remainder(num1, num2, total);
+			C.askForTwoNum(num1, num2);
+			C.find_remainder(num1, num2, total);
 		}
 		else if(symbol == "exit") { // if the user writes 'exit' as their symbol, it will make the while loop end and stop the calculator program
-	    	isProgramRunning = false;
+			isProgramRunning = false;
 		}
 		else {
 			cout << "ERROR: Symbol not found.\n"; // If it's not on the list of function symbols, then it will say it's not a valid symbol and ask for another one
