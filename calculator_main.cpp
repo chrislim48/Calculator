@@ -12,11 +12,11 @@ int main() {
 	C.displayFunctions();
   
 	while(isProgramRunning == true) {
-    
+		
 		cout << "Enter the symbol in the parenthesis of the function you would like to use: ";
 		cin >> symbol;
 
-    // Whichever symbol they choose, it will then ask the user for 1 number or 2 numbers and then use that function that relates to the symbol
+    	// Whichever symbol they choose, it will then ask the user for 1 number or 2 numbers and then use that function that relates to the symbol
 		if(symbol == "+") {
 			C.askForTwoNum(num1, num2);
 			C.add(num1, num2, total);
