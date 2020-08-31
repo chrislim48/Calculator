@@ -12,7 +12,7 @@ int main() {
 	C.displayFunctions();
   
 	while(isProgramRunning == true) {
-		
+
 		cout << "Enter the symbol in the parenthesis of the function you would like to use: ";
 		cin >> symbol;
 
@@ -21,13 +21,13 @@ int main() {
 			C.askForTwoNum(num1, num2);
 			C.add(num1, num2, total);
 		}
-	    else if(symbol == "-") {
+		else if(symbol == "-") {
 	    	C.askForTwoNum(num1, num2);
-	      	C.subtract(num1, num2, total);
+	    	C.subtract(num1, num2, total);
 	    }
-	    else if(symbol == "*") {
-	      	C.askForTwoNum(num1, num2);
-	      	C.multiply(num1, num2, total);
+		else if(symbol == "*") {
+		  	C.askForTwoNum(num1, num2);
+	    	C.multiply(num1, num2, total);
 	    }
 	    else if(symbol == "/") {
 	      	C.askForTwoNum(num1, num2);
