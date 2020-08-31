@@ -64,8 +64,8 @@ void Calculator::multiply(double n1, double n2, double& total) {
 void Calculator::divide(double n1, double n2, double& total) {
  	if(n2 != 0) {
  		total = n1 / n2;
-    	cout << n1 << " / " << n2 << " = " << total << endl;
-	}
+ 		cout << n1 << " / " << n2 << " = " << total << endl;
+ 	}
 	else {
 		cout << "ERROR: Can't divide by zero!\n";
 	}
