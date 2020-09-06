@@ -28,7 +28,7 @@ void Calculator::displayFunctions() {
 	cout << "Factorial (!)" << endl;
 	cout << "Percentage (%)" << endl;
 	cout << "Exit program (exit)" << endl;
-  cout << "-------------------------" << endl;
+	cout << "-------------------------" << endl;
 }
 
 void Calculator::askForNum(double& n1) {
@@ -42,13 +42,13 @@ void Calculator::askForNum(double& n1) {
 void Calculator::askForNum(double& n1, double& n2) {
   cout << "Enter first number: ";
   if(n1 / 1 == n1)
-	  cin >> n1;
+  	cin >> n1;
   else
     cout << "ERROR: Not a valid number.\n";
   
   cout << "Enter second number: ";
   if(n2 / 1 == n2)
-	  cin >> n2;
+  	cin >> n2;
   else
     cout << "ERROR: Not a valid number.\n";
 }
