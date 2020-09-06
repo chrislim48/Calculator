@@ -1,4 +1,4 @@
-Math Calculator (C++)
+Math Calculator 
 
 A calculator that can add, subtract, multiply, divide, find remainders, etc. 
-Coded using object oriented programming
+using object oriented programming C++
