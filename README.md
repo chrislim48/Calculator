@@ -1,3 +1,4 @@
-Math Calculator
+Math Calculator (C++)
 
-Able to do multiple math functions, including factorial, square root, and simple arithmatic.
+A calculator that can add, subtract, multiply, divide, find remainders, etc. 
+Coding using object oriented programming
