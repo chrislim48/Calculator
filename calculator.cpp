@@ -44,13 +44,13 @@ void Calculator::askForNum(double& n1, double& n2) {
   if(n1 / 1 == n1)
   	cin >> n1;
   else
-    cout << "ERROR: Not a valid number.\n";
+  	cout << "ERROR: Not a valid number.\n";
   
   cout << "Enter second number: ";
   if(n2 / 1 == n2)
   	cin >> n2;
   else
-    cout << "ERROR: Not a valid number.\n";
+  	cout << "ERROR: Not a valid number.\n";
 }
 
 void Calculator::add(double n1, double n2) {
@@ -60,7 +60,7 @@ void Calculator::add(double n1, double n2) {
 
 void Calculator::subtract(double n1, double n2) {
 	double total = n1 - n2;
-  cout << n1 << " - " << n2 << " = " << total << endl;
+	cout << n1 << " - " << n2 << " = " << total << endl;
 }
 
 void Calculator::multiply(double n1, double n2) {
@@ -103,18 +103,18 @@ void Calculator::power(double n1, double n2) {
 
 void Calculator::factorial(double n1) {
 	double total = 1;
-  if(n1 < 0) {
-    cout << "ERROR: Can not use factorial on negative numbers." << endl;
-  }
-  else if(n1 == 0) {
-    cout << "0! = 1" << endl;
-  }
-  else {
-    for(int i = 1; i < n1+1; i++) {
-      total *= i;
-    }
-    cout << n1 << "! = " << total << endl;
-  }
+	if(n1 < 0) {
+		cout << "ERROR: Can not use factorial on negative numbers." << endl;
+	}
+	else if(n1 == 0) {
+		cout << "0! = 1" << endl;
+	}
+	else {
+		for(int i = 1; i < n1+1; i++) {
+			total *= i;
+		}
+		cout << n1 << "! = " << total << endl;
+	}
 }
 
 void Calculator::percentage(double n1, double n2) {
