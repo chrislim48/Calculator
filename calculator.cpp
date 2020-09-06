@@ -102,7 +102,7 @@ void Calculator::power(double n1, double n2) {
 }
 
 void Calculator::factorial(double n1) {
-  double total = 1;
+	double total = 1;
   if(n1 < 0) {
     cout << "ERROR: Can not use factorial on negative numbers." << endl;
   }
