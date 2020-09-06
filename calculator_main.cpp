@@ -61,7 +61,7 @@ int main() {
       isProgramRunning = false;
     }
     else {
-      cout << "ERROR: Symbol not found.\n"; // If it's not on the list of function symbols, then it will say it's not a valid symbol and ask for another one
+      cout << "ERROR: Symbol not found.\n"; // If it's not on the list of function symbols, then it'll say it's not a valid symbol and ask for another one
     }
     
 	}
